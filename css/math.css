@@ -17,75 +17,106 @@ body
 
 #top
 {
+    font-family: sans-serif;
+    color: #0000ff;
+    background-color: #6685e0;
     font-size: 26pt;
     text-align: left;
     height: 50px;
     width: 100%;
 }
 
-#chart
+#mid
 {
-    background-color: #ffffff;
-    bottom: 320px;
-    border-bottom: 1px #cccccc solid;
-    border-top: 1px #cccccc solid;
-    box-shadow: inset 0 10px 10px -10px #999999, inset 0 -10px 10px -10px #999999;
-    font-size: smaller;
-    height: 200px;
-    overflow-y: scroll;
-    padding-top: 10px;
     position: absolute;
-    width: 320px;
+    font-size: 18pt;
+    text-align: left;
+    left: 0;
+    width: 100%;
 }
 
-#controls
-{
-    margin-bottom: 10px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-#earth
-{
-    border-right: 1px #cccccc solid;
-    height: 100%;
-    margin-right: 320px;
-}
-
-#instructions
-{
-    font-size: smaller;
-    text-align: center;
-}
-
-#left
-{
-    float: right; 
-    height: 100%;
-    width: 100%
-}
-
-#logo
-{
-    margin-bottom: 10px;
-    font-size: x-large;
-    font-weight: bold;
-    margin-top: 10px;
-    text-align: center;
-}
-
-#map
+#bottom
 {
     bottom: 0;
-    height: 320px;
+    font-size: smaller;
+    height: 25px;
     position: absolute;
-    width: 320px;
+    width: 100%;
+    text-align: center;
 }
 
-#right
+#menu
 {
-    float: right;
-    height: 100%;
-    margin-right: -100%;
-    width: 320px;
+    text-align: center;
+}
+
+.reg_login_form
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+.login
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn
+{
+    border: 2px #009999 solid;
+    width: 200px;
+}
+
+#answer
+{
+    text-align: center;
+    width: 300px;
+    font-size: larger;
+}
+
+#answer_form
+{
+    text-align: center;
+}
+
+#game_area
+{
+    height: 50%;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px #009999 solid;
+    text-align: center;
+    font-size: 30pt;
+}
+
+#timer
+{
+    width: 100px;
+    height: 10px;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#result
+{
+    bottom: 0;
+    height: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#end
+{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
